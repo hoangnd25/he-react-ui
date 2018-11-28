@@ -11,6 +11,7 @@ type Props = {
   tooltip?: boolean;
   light?: boolean;
   className?: string;
+  tippyProps?: object;
 };
 
 export default class Popover extends React.Component<Props, any> {
@@ -33,6 +34,7 @@ export default class Popover extends React.Component<Props, any> {
       tooltip,
       className,
       light,
+      tippyProps,
     } = this.props;
 
     return (
@@ -54,6 +56,7 @@ export default class Popover extends React.Component<Props, any> {
             </PopoverDisplay>
           }
           position={preferRight ? 'bottom-end' : 'bottom-start'}
+          {...tippyProps || {}}
         >
           {children}
         </Tippy>
