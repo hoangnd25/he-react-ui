@@ -1,8 +1,7 @@
 import React from 'react';
-import { Tooltip as Tippy } from 'react-tippy';
+import { Tooltip as Tippy, TooltipProps } from 'react-tippy';
 import style from './index.scss';
 import PopoverDisplay from './PopoverDisplay';
-import { TooltipProps } from './tippy';
 
 type Props = {
   children?: any;
