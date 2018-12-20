@@ -407,6 +407,28 @@ exports[`<Icon /> rendered correctly with Pencil fixture 1`] = `
 </Icon>
 `;
 
+exports[`<Icon /> rendered correctly with People fixture 1`] = `
+<Icon
+  name="People"
+>
+  <Icon
+    name="People"
+    shadow={false}
+  />
+</Icon>
+`;
+
+exports[`<Icon /> rendered correctly with Person fixture 1`] = `
+<Icon
+  name="Person"
+>
+  <Icon
+    name="Person"
+    shadow={false}
+  />
+</Icon>
+`;
+
 exports[`<Icon /> rendered correctly with RadioChecked fixture 1`] = `
 <Icon
   name="RadioChecked"
