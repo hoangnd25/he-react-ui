@@ -1,6 +1,5 @@
 import React from 'react';
 import PopUp from '../';
-import { Paragraph } from '../..';
 
 export default {
   component: PopUp,
@@ -10,10 +9,10 @@ export default {
   },
   children: (
     <div>
-      <Paragraph>
+      <p>
         This modal popup cannot be closed without a parent interfering.
-      </Paragraph>
-      <Paragraph>If only the showing property were set to false.</Paragraph>
+      </p>
+      <p>If only the showing property were set to false.</p>
     </div>
   ),
 };
