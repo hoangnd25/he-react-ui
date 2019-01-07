@@ -9,9 +9,7 @@ export default {
   },
   children: (
     <div>
-      <p>
-        This modal popup cannot be closed without a parent interfering.
-      </p>
+      <p>This modal popup cannot be closed without a parent interfering.</p>
       <p>If only the showing property were set to false.</p>
     </div>
   ),

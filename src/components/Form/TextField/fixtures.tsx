@@ -153,12 +153,8 @@ export default [
       isVerified: false,
       markerTooltip: (
         <Fragment>
-          <h3>
-            Sample Popup
-          </h3>
-          <p>
-            Sample content
-          </p>
+          <h3>Sample Popup</h3>
+          <p>Sample content</p>
         </Fragment>
       ),
     },
