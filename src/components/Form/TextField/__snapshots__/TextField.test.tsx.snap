@@ -400,25 +400,12 @@ exports[`<TextField /> rendered correctly with UnVerified status fixture 1`] = `
   marker="verify"
   markerTooltip={
     <UNDEFINED>
-      <mockConstructor
-        className="editIcon"
-        name="Edit"
-        shadow={false}
-      />
-      <mockConstructor
-        h1={false}
-        h2={false}
-        h3={true}
-        h4={false}
-        nav={false}
-      >
+      <h3>
         Sample Popup
-      </mockConstructor>
-      <Paragraph
-        className="paragraph"
-      >
+      </h3>
+      <p>
         Sample content
-      </Paragraph>
+      </p>
     </UNDEFINED>
   }
   name="demo"
@@ -451,25 +438,12 @@ exports[`<TextField /> rendered correctly with UnVerified status fixture 1`] = `
         <Popover
           content={
             <UNDEFINED>
-              <mockConstructor
-                className="editIcon"
-                name="Edit"
-                shadow={false}
-              />
-              <mockConstructor
-                h1={false}
-                h2={false}
-                h3={true}
-                h4={false}
-                nav={false}
-              >
+              <h3>
                 Sample Popup
-              </mockConstructor>
-              <Paragraph
-                className="paragraph"
-              >
+              </h3>
+              <p>
                 Sample content
-              </Paragraph>
+              </p>
             </UNDEFINED>
           }
           light={true}
@@ -496,25 +470,12 @@ exports[`<TextField /> rendered correctly with UnVerified status fixture 1`] = `
                 tooltip={undefined}
               >
                 <UNDEFINED>
-                  <mockConstructor
-                    className="editIcon"
-                    name="Edit"
-                    shadow={false}
-                  />
-                  <mockConstructor
-                    h1={false}
-                    h2={false}
-                    h3={true}
-                    h4={false}
-                    nav={false}
-                  >
+                  <h3>
                     Sample Popup
-                  </mockConstructor>
-                  <Paragraph
-                    className="paragraph"
-                  >
+                  </h3>
+                  <p>
                     Sample content
-                  </Paragraph>
+                  </p>
                 </UNDEFINED>
               </PopoverDisplay>
             }

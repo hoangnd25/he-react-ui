@@ -19,20 +19,12 @@ exports[`<PopUp /> rendered correctly with Modal fixture 1`] = `
       className="popup popupWithPadding"
     >
       <div>
-        <Paragraph>
-          <p
-            className="paragraph"
-          >
-            This modal popup cannot be closed without a parent interfering.
-          </p>
-        </Paragraph>
-        <Paragraph>
-          <p
-            className="paragraph"
-          >
-            If only the showing property were set to false.
-          </p>
-        </Paragraph>
+        <p>
+          This modal popup cannot be closed without a parent interfering.
+        </p>
+        <p>
+          If only the showing property were set to false.
+        </p>
       </div>
     </div>
   </div>
