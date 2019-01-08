@@ -5,8 +5,8 @@
 // Vendor
 import classnames from 'classnames';
 import React, { Component } from 'react';
-import DropDown from '../../Icon/DropDown';
-import { LoadingSpinner, LoadingStrip } from '../../Loading';
+import DropDown from '../Icon/DropDown';
+import { LoadingSpinner, LoadingStrip } from '../Loading';
 import style from './Table.scss';
 
 function defaultSort(a: any, b: any) {
