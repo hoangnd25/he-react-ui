@@ -1,6 +1,6 @@
 import React from 'react';
 import Table from '../';
-import { ActionIcon, ActionSet } from '../../../Form';
+import { ActionIcon, ActionSet } from '../../Form';
 
 const actions = (
   <ActionSet>
