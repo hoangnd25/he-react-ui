@@ -132,8 +132,6 @@
 .link {
   background: none;
   border: none;
-  padding: 0;
-  height: auto;
   &:active, &:hover, &:focus {
     background: none;
   }
@@ -211,7 +209,7 @@
 }
 
 .keyline {
-  &:not(:hover):not(:active) {
+  &:not(:hover):not(:active):not(.submitting):not(.done) {
     border: solid 1px;
     background: none;
   }

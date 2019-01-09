@@ -1,9 +1,0 @@
-@import '../../../styles/base';
-
-.footer {
-  font-family: $font-stack;
-  padding-bottom: 80px;
-  @include ie {
-    width: 640px;
-  }
-}

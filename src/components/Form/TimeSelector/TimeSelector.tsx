@@ -12,10 +12,6 @@ import Clock from '../../Icon/Clock';
 import Label from '../Label';
 import style from './TimeSelector.scss';
 
-function asElement(node: HTMLElement): HTMLElement {
-  return node as any;
-}
-
 type Props = {
   id: string;
   name: string;
@@ -119,28 +115,11 @@ class TimeSelector extends React.Component<Props, any> {
     const { hourly } = this.props;
     return options.map((option: any) => {
       const selected = this.props.value === option.value;
-      let ref: any = null;
-      if (selected) {
-        ref = (item: any) => {
-          if (item) {
-            setTimeout(() => {
-              if (!item.parentNode) return;
-              const parentNode = asElement(item.parentNode);
-
-              if (parentNode) {
-                const { offsetTop } = parentNode as any;
-                (parentNode as any).scrollTop = item.offsetTop - offsetTop;
-              }
-            }, 200);
-          }
-        };
-      }
       return (
         <li
           className={classnames(style.option, { [style.selected]: selected })}
           key={option.value}
           onClick={() => selectOption(option)}
-          ref={ref}
         >
           {`${hourly ? `${option.label}:00` : option.label}`}
         </li>

@@ -1,14 +1,12 @@
 // @flow
 import React, { Fragment } from 'react';
-import Input from '.';
-import { Heading, Paragraph, Icon } from '../../../';
-import style from './TextField.scss';
+import TextField from '.';
 
 export default [
   {
     name: 'Default',
     formWrapper: { value: '' },
-    component: Input,
+    component: TextField,
     props: {
       id: 'demo',
       name: 'demo',
@@ -19,7 +17,7 @@ export default [
   {
     name: 'small',
     formWrapper: { value: '' },
-    component: Input,
+    component: TextField,
     props: {
       id: 'demo',
       name: 'demo',
@@ -31,7 +29,7 @@ export default [
   {
     name: 'smallNoLabel',
     formWrapper: { value: '' },
-    component: Input,
+    component: TextField,
     props: {
       id: 'demo',
       name: 'demo',
@@ -42,7 +40,7 @@ export default [
   {
     name: 'password',
     formWrapper: { value: '' },
-    component: Input,
+    component: TextField,
     props: {
       id: 'demo',
       name: 'demo',
@@ -54,7 +52,7 @@ export default [
   {
     name: 'noLabel',
     formWrapper: { value: '' },
-    component: Input,
+    component: TextField,
     props: {
       id: 'demo',
       name: 'demo',
@@ -63,7 +61,7 @@ export default [
 
   {
     name: 'Disabled',
-    component: Input,
+    component: TextField,
     props: {
       id: 'demo',
       name: 'demo',
@@ -74,7 +72,7 @@ export default [
 
   {
     name: 'Error',
-    component: Input,
+    component: TextField,
     props: {
       id: 'demo',
       name: 'demo',
@@ -86,7 +84,7 @@ export default [
 
   {
     name: 'InvalidMarker',
-    component: Input,
+    component: TextField,
     props: {
       id: 'demo',
       name: 'demo',
@@ -100,7 +98,7 @@ export default [
 
   {
     name: 'ValidMarker',
-    component: Input,
+    component: TextField,
     props: {
       id: 'demo',
       name: 'demo',
@@ -112,7 +110,7 @@ export default [
 
   {
     name: 'Value',
-    component: Input,
+    component: TextField,
     props: {
       id: 'demo',
       name: 'demo',
@@ -123,7 +121,7 @@ export default [
 
   {
     name: 'Info tooltip',
-    component: Input,
+    component: TextField,
     props: {
       id: 'demo',
       name: 'demo',
@@ -135,7 +133,7 @@ export default [
 
   {
     name: 'Verified status',
-    component: Input,
+    component: TextField,
     props: {
       id: 'demo',
       name: 'demo',
@@ -146,7 +144,7 @@ export default [
 
   {
     name: 'UnVerified status',
-    component: Input,
+    component: TextField,
     props: {
       id: 'demo',
       name: 'demo',
@@ -155,15 +153,21 @@ export default [
       isVerified: false,
       markerTooltip: (
         <Fragment>
-          <Icon key="icon" name="Edit" className={style.editIcon} />
-          <Heading key="h3" h3>
-            Sample Popup
-          </Heading>
-          <Paragraph key="paragraph" className={style.paragraph}>
-            Sample content
-          </Paragraph>
+          <h3>Sample Popup</h3>
+          <p>Sample content</p>
         </Fragment>
       ),
+    },
+  },
+
+  {
+    name: 'Autocomplete off',
+    component: TextField,
+    props: {
+      id: 'firstname',
+      name: 'firstname',
+      label: 'First Name',
+      autoComplete: 'off',
     },
   },
 ];

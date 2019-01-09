@@ -35,6 +35,8 @@ export default [
   { name: 'Megaphone', component: Icon, props: { name: 'Megaphone' } },
   { name: 'Patients', component: Icon, props: { name: 'Patients' } },
   { name: 'Pencil', component: Icon, props: { name: 'Pencil' } },
+  { name: 'People', component: Icon, props: { name: 'People' } },
+  { name: 'Person', component: Icon, props: { name: 'Person' } },
   { name: 'Search', component: Icon, props: { name: 'Search' } },
   { name: 'Settings', component: Icon, props: { name: 'Settings' } },
   { name: 'UserShield', component: Icon, props: { name: 'UserShield' } },

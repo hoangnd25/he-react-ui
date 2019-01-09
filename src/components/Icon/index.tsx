@@ -39,6 +39,8 @@ import Logout from './Logout';
 import Megaphone from './Megaphone';
 import Patients from './Patients';
 import Pencil from './Pencil';
+import People from './People';
+import Person from './Person';
 import Search from './Search';
 import Settings from './Settings';
 import Sync from './Sync';
@@ -142,6 +144,10 @@ const Icon: React.SFC<{
       return <Megaphone {...childProps} />;
     case 'Patients':
       return <Patients {...childProps} />;
+    case 'People':
+      return <People {...childProps} />;
+    case 'Person':
+      return <Person {...childProps} />;
     case 'Pencil':
       return <Pencil {...childProps} />;
     case 'RadioChecked':
