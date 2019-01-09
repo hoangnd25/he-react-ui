@@ -10,6 +10,7 @@ import {
   ArrowDown,
   CurvedArrow,
 } from './Arrows';
+import BackInTime from './BackInTime';
 import Bookings from './Bookings';
 import Calendar from './Calendar';
 import CaretRight from './CaretRight';
@@ -34,6 +35,7 @@ import Help from './Help';
 import Home from './Home';
 import style from './Icon.scss';
 import Language from './Language';
+import List from './List';
 import Lock from './Lock';
 import Logout from './Logout';
 import Megaphone from './Megaphone';
@@ -90,6 +92,8 @@ const Icon: React.SFC<{
       return <ArrowUp {...childProps} />;
     case 'ArrowDown':
       return <ArrowDown {...childProps} />;
+    case 'BackInTime':
+      return <BackInTime {...childProps} />;
     case 'Bookings':
       return <Bookings {...childProps} />;
     case 'Calendar':
@@ -136,6 +140,8 @@ const Icon: React.SFC<{
       return <Home {...childProps} />;
     case 'Language':
       return <Language {...childProps} />;
+    case 'List':
+      return <List {...childProps} />;
     case 'Lock':
       return <Lock {...childProps} />;
     case 'Logout':
