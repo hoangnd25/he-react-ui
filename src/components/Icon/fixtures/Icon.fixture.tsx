@@ -63,6 +63,7 @@ export default [
   { name: 'ArrowRight', component: Icon, props: { name: 'ArrowRight' } },
   { name: 'ArrowUp', component: Icon, props: { name: 'ArrowUp' } },
   { name: 'DeleteProfile', component: Icon, props: { name: 'DeleteProfile' } },
+  { name: 'Download', component: Icon, props: { name: 'Download' } },
   { name: 'UserShield', component: Icon, props: { name: 'UserShield' } },
   {
     name: 'UserShieldPrivacy',

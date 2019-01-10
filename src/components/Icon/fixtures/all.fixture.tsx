@@ -18,6 +18,7 @@ export default [
   { name: 'Cross', component: Icon, props: { name: 'Cross' } },
   { name: 'Delete', component: Icon, props: { name: 'Delete' } },
   { name: 'DeleteProfile', component: Icon, props: { name: 'DeleteProfile' } },
+  { name: 'Download', component: Icon, props: { name: 'Download' } },
   { name: 'DropDown', component: Icon, props: { name: 'DropDown' } },
   { name: 'Edit', component: Icon, props: { name: 'Edit' } },
   { name: 'Ellipsis', component: Icon, props: { name: 'Ellipsis' } },

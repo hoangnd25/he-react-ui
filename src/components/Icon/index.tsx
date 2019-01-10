@@ -25,6 +25,7 @@ import Clock from './Clock';
 import Cross from './Cross';
 import Delete from './Delete';
 import DeleteProfile from './DeleteProfile';
+import Download from './Download';
 import DropDown from './DropDown';
 import Edit from './Edit';
 import Ellipsis from './Ellipsis';
@@ -123,6 +124,8 @@ const Icon: React.SFC<{
       return <Delete {...childProps} />;
     case 'DeleteProfile':
       return <DeleteProfile {...childProps} />;
+    case 'Download':
+      return <Download {...childProps} />;
     case 'DropDown':
       return <DropDown {...childProps} />;
     case 'Edit':
