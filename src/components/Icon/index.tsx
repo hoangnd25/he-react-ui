@@ -33,6 +33,7 @@ import HealthEngine from './HealthEngine';
 import HealthEngineWithText from './HealthEngineWithText';
 import Help from './Help';
 import Home from './Home';
+import Info from './Info';
 import style from './Icon.scss';
 import Language from './Language';
 import List from './List';
@@ -138,6 +139,8 @@ const Icon: React.SFC<{
       return <Help {...childProps} />;
     case 'Home':
       return <Home {...childProps} />;
+    case 'Info':
+      return <Info {...childProps} />;
     case 'Language':
       return <Language {...childProps} />;
     case 'List':

@@ -26,6 +26,7 @@ export default [
   },
   { name: 'Help', component: Icon, props: { name: 'Help' } },
   { name: 'Home', component: Icon, props: { name: 'Home' } },
+  { name: 'Info', component: Icon, props: { name: 'Info' } },
   { name: 'Language', component: Icon, props: { name: 'Language' } },
   { name: 'List', component: Icon, props: { name: 'List' } },
   { name: 'Lock', component: Icon, props: { name: 'Lock' } },
